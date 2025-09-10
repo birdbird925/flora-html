@@ -2548,7 +2548,7 @@
 	
 		let mySplitText = new SplitText(".footer-big-text", { type: "words,chars" });
 		let chars = mySplitText.chars;
-		let endGradient = chroma.scale(['#FFF', '#FFF', '#FFF', '#FFF', '#FFF']);
+		let endGradient = chroma.scale(['#C28051', '#C28051', '#C28051', '#C28051', '#C28051']);
 		cta.to(chars, {
 			duration: 0.5,
 			scaleY: 0.6,
@@ -2583,7 +2583,7 @@
 			duration: 0.8
 		}, 0.7);
 		cta.to(chars, {
-			color: '#fff',
+			color: '#C28051',
 			duration: 1.4,
 			stagger: 0.05
 		});

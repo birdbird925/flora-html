@@ -10226,7 +10226,7 @@ body.tp-magic-cursor #magic-cursor {
   list-style-type: none;
   padding-bottom: 30px;
   padding-top: 30px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid #c280517b;
   position: relative;
 }
 .tp-footer-menu ul li::before {
@@ -10240,7 +10240,7 @@ body.tp-magic-cursor #magic-cursor {
   opacity: 0;
   visibility: hidden;
   transition: all 0.7s ease-out 0s;
-  background-color: var(--tp-common-white);
+  background-color: var(--tp-light-cocoa);
 }
 .tp-footer-menu ul li:last-child {
   padding-bottom: 0;
@@ -10463,7 +10463,7 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 400;
   font-size: 170px;
   line-height: 1;
-  color: var(--tp-common-white);
+  color: var(--tp-light-cocoa);
   margin-bottom: 45px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
