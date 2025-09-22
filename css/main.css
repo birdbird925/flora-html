@@ -19161,7 +19161,7 @@ body.tp-magic-cursor #magic-cursor {
   content: "";
   height: 1px;
   width: 40px;
-  background-color: var(--tp-common-black);
+  background-color: var(--tp-light-cocoa);
   display: inline-block;
   transform: translateY(-3px);
   margin-left: 14px;
@@ -19489,10 +19489,9 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
-  margin-right: 100px;
   display: inline-block;
   transform: translateY(6px);
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
 }
 @media (max-width: 767px) {
   .tp-studio-testimonial-top-title span {
@@ -19548,8 +19547,8 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.3;
-  color: var(--tp-common-white);
-  font-family: var(--tp-ff-shoulders);
+  color: var(--tp-common-black);
+  font-family: "tt_ramillas_medium";
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-studio-testimonial-text p {
@@ -19577,11 +19576,16 @@ body.tp-magic-cursor #magic-cursor {
     margin-right: 30px;
   }
 }
+.tp-studio-testimonial-user-info span {
+  font-family: "tt_ramillas_regular";
+  color: var(--tp-light-cocoa);
+}
 .tp-studio-testimonial-user-name {
   font-size: 22px;
   font-weight: 500;
   line-height: 1;
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
+  font-family: "tt_ramillas_bold";
 }
 .tp-studio-testimonial-user span {
   font-size: 14px;
