@@ -16501,12 +16501,12 @@ body.tp-magic-cursor #magic-cursor {
 }
 
 .tp-project-text-slide .tp-footer-4-big-title {
-  color: var(--tp-common-black);
+  color: var(--tp-common-cocoa);
   font-family: var(--tp-ff-syne);
   text-transform: capitalize;
 }
 .tp-project-text-slide .tp-footer-4-big-title span {
-  color: var(--tp-common-black);
+  color: var(--tp-common-cocoa);
 }
 
 .rm-project-contact-item {
@@ -22761,6 +22761,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 10px;
   display: inline-block;
   color: #fff;
+  font-family: "tt_ramillas_medium";
 }
 .tp-shop-slider-title {
   font-size: 150px;
@@ -22770,6 +22771,9 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 35px;
   color: var(--tp-common-white);
   font-family: var(--tp-ff-ramillas-light);
+}
+.tp-shop-slider-title.white {
+  color: #fff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-shop-slider-title {
@@ -22989,12 +22993,30 @@ body.tp-magic-cursor #magic-cursor {
 
 .tp-shop-left-thumb {
   overflow: hidden;
+  position: relative;
 }
 .tp-shop-left-thumb img {
   transition: 0.9s;
 }
 .tp-shop-left-thumb:hover img {
   transform: scale(1.1);
+}
+.tp-shop-left-thumb .caption {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #fff;
+}
+.tp-shop-left-thumb .content-wrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+}
+.tp-shop-left-thumb .content-wrapper h3,
+.tp-shop-left-thumb .content-wrapper p, 
+.tp-shop-left-thumb .content-wrapper span{
+  color: #fff;
 }
 
 .tp-shop-right-thumb img {
@@ -23080,16 +23102,38 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1;
   margin-bottom: 10px;
   display: inline-block;
-  text-transform: uppercase;
-  color: var(--tp-common-black);
-  font-family: var(--tp-ff-marcellus);
+  color: var(--tp-light-cocoa);
+  font-family: var(--tt_ramillas_medium);
 }
 .tp-shop-insta-title {
   font-size: 60px;
   font-weight: 400;
   line-height: 1;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-marcellus);
+  font-family: var(--tt_ramillas_medium);
+}
+
+.tp-shop-insta-thumb {
+  position: relative;
+}
+.tp-shop-insta-thumb .insta-content{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+.tp-shop-insta-thumb .insta-heading {
+  text-align: center;
+  font-family: 'tt_ramillas_medium';
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.tp-shop-insta-thumb .insta-title {
+  text-align: center;
+  font-family: 'tt_ramillas_medium';
+  font-size: 38px;
+  color: #fff;
 }
 
 .tp-shop-brand-item {
@@ -24449,7 +24493,7 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 400;
   line-height: 1;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-marcellus);
+  font-family: "tt_ramillas_medium";
 }
 .tp-shop-top-text-wrap {
   padding-bottom: 8px;
