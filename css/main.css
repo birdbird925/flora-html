@@ -328,7 +328,7 @@ li,
 }
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .container-1685 {
-    padding: 0px 100px;
+    padding: 30px 100px 0 100px;
   }
 }
 
@@ -17905,8 +17905,8 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 40px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: var(--tp-common-white);
-  font-family: var(--tp-ff-marcellus);
+  color: #fff;
+  font-family: "tt_ramillas_medium";
   margin-bottom: 0px;
 }
 .tp-portfolio-9-category.tp_reveal_anim {
@@ -17920,8 +17920,8 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 180px;
   line-height: 1;
   letter-spacing: -0.03em;
-  color: var(--tp-common-white);
-  font-family: var(--tp-ff-marcellus);
+  color: #fff;
+  font-family: "tt_ramillas_light";
   display: inline-block;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
